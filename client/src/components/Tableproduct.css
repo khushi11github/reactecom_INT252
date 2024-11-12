@@ -1,0 +1,122 @@
+/* Container for the product table */
+.product-table-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table styles */
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Table headers */
+  .product-table th {
+    background-color: #f1f1f1;
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 16px;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  /* Table rows */
+  .product-table td {
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 14px;
+    color: #555;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Row hover effect */
+  .product-table tr:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Image styling for products */
+  .product-table td img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+  }
+  
+  /* Action buttons (Qty++, Qty--, Remove) */
+  .action-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .action-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* Remove button */
+  .remove-btn {
+    background-color: #f44336;
+  }
+  
+  .remove-btn:hover {
+    background-color: #e53935;
+  }
+  
+  /* Checkout button */
+  .checkout-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .checkout-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Total row styling */
+  .total-row {
+    font-weight: bold;
+  }
+  
+  .total-row td {
+    padding: 15px;
+  }
+  
+  .total-row td:last-child {
+    text-align: right;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .product-table th, .product-table td {
+      padding: 8px 10px;
+    }
+  
+    .product-table td img {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .checkout-btn {
+      width: 100%;
+      padding: 12px 20px;
+    }
+  }
+  

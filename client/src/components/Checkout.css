@@ -1,0 +1,86 @@
+/* Checkout.css */
+
+/* Container for the entire Checkout page */
+.checkout-container {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  /* Centered heading */
+  .checkout-heading {
+    color: #333;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  
+  /* Container for product and shipping details */
+  .checkout-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  /* Each section inside the checkout */
+  .checkout-section {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-heading {
+    font-size: 24px;
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  /* Table and product details */
+  .product-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Shipping address styling */
+  .shipping-details {
+    padding: 10px;
+  }
+  
+  .shipping-address-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .shipping-address-list li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Button styling */
+  .checkout-footer .btn {
+    font-size: 18px;
+    padding: 12px 30px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .checkout-footer .btn:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Make layout responsive */
+  @media (max-width: 768px) {
+    .checkout-content {
+      flex-direction: column;
+    }
+  }
+  
